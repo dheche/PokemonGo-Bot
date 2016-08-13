@@ -108,6 +108,7 @@ web/
 data/last-location*.json
 data/cells-*.json
 data/map-caught-*.json
+data/recent-forts-*.json
 
 # Multiple config
 configs/*
