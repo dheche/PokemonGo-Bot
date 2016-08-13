@@ -7,7 +7,9 @@ else
 filename="./configs/config.json"
 fi
 cd $pokebotpath
-source bin/activate
+if [ -f bin/activate ]; then
+        source bin/activate
+fi
 if [ ! -f "$filename" ]; then
 echo "There's no "$filename" file. Please use ./setup.sh -c to creat one."
 fi
