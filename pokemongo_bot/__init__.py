@@ -469,6 +469,12 @@ class PokemonGoBot(object):
             'error_caching_forts',
             parameters=('path', )
         )
+        # use pokesnipers
+        self.event_manager.register_event('use_pokesnipers')
+        self.event_manager.register_event(
+            'teleport_to',
+            parameters=('latitude', 'longitude', 'prefix', 'suffix')
+        )
 
     def tick(self):
         self.health_record.heartbeat()
