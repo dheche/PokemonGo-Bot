@@ -49,9 +49,11 @@ class ColoredLoggingHandler(EventHandler):
         'skip_evolve':                       'yellow',
         'softban':                           'red',
         'spun_pokestop':                     'cyan',
+        'teleport_to':                       'green',
         'threw_berry_failed':                'red',
         'unknown_spin_result':               'red',
         'unset_pokemon_nickname':            'red',
+        'use_pokesnipers':                   'blue',
         'vip_pokemon':                       'red',
 
         # event names for 'white' still here to remember that these events are already determined its color.
