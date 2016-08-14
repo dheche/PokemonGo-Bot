@@ -123,6 +123,7 @@ configs/*
 !configs/path.example.json
 !config.json.cluster.example
 !config.json.optimizer.example
+!config.json.pokesnipers.example
 
 # Virtualenv folders
 bin/
